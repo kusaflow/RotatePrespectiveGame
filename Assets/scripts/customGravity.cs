@@ -8,8 +8,11 @@ public class customGravity : MonoBehaviour
 
     public static float gravVal = -9.81f;
     public static float camZRot = 0;
-    public Rigidbody m_rb;
 
+    public static float LS_inc = 0;
+    public static float RS_inc = 0;
+
+  
     public Scrollbar scroll_R;
     public Scrollbar scroll_L;
 
@@ -18,10 +21,13 @@ public class customGravity : MonoBehaviour
 
     void FixedUpdate()
     {
-        camZRot = 180 * scroll_R.value + 180 * scroll_L.value;
 
-        Debug.Log(camZRot);
-        Vector3 gravity = new Vector3(0, gravVal);
-        m_rb.AddForce(gravity, ForceMode.Acceleration);
+        camZRot = 180 * (scroll_R.value * -1) + 180 * scroll_L.value + LS_inc * 180 + RS_inc * 180;
+        
+        //Debug.Log(camZRot);
+
+        yG = Mathf.Cos(Mathf.Deg2Rad * camZRot) * gravVal;
+        xG = Mathf.Sin(Mathf.Deg2Rad * camZRot) * gravVal * -1;
+
     }
 }
