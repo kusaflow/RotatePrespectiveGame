@@ -6,6 +6,7 @@ public class gravImplement : MonoBehaviour
 {
 
     public Rigidbody m_rb;
+    public float gravMul = 1;
 
     // Start is called before the first frame update
     void Start()
@@ -15,7 +16,7 @@ public class gravImplement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 gravity = new Vector3(customGravity.xG, customGravity.yG, 0);
+        Vector3 gravity = new Vector3(customGravity.xG * gravMul, customGravity.yG * gravMul, 0);
         m_rb.AddForce(gravity, ForceMode.Acceleration);
     }
 }
