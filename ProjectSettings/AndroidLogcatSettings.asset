@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "3201fd50b10a162f",
         "name": "com.DefaultCompany.rotatePresGame",
-        "processId": 8606,
+        "processId": 463,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -12,6 +12,18 @@
             "deviceId": "3201fd50b10a162f",
             "name": "com.DefaultCompany.rotatePresGame",
             "processId": 8606,
+            "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 1470,
+            "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 463,
             "exited": false
         }
     ],
