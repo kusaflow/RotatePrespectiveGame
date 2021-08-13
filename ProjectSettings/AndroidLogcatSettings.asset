@@ -3,8 +3,8 @@
     "m_SelectedPackage": {
         "deviceId": "3201fd50b10a162f",
         "name": "com.DefaultCompany.rotatePresGame",
-        "processId": 463,
-        "exited": false
+        "processId": 31055,
+        "exited": true
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
@@ -25,6 +25,48 @@
             "name": "com.DefaultCompany.rotatePresGame",
             "processId": 463,
             "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 30806,
+            "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 10770,
+            "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 13648,
+            "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 20435,
+            "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 21391,
+            "exited": true
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 28942,
+            "exited": false
+        },
+        {
+            "deviceId": "3201fd50b10a162f",
+            "name": "com.DefaultCompany.rotatePresGame",
+            "processId": 31055,
+            "exited": true
         }
     ],
     "m_Tags": {

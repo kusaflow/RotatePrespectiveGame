@@ -19,6 +19,11 @@ public class customGravity : MonoBehaviour
     public static float xG = 0;
     public static float yG = 0;
 
+    private void Start()
+    {
+        //Application.targetFrameRate = 60;
+    }
+
     void FixedUpdate()
     {
 
